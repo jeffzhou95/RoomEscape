@@ -40,7 +40,7 @@ private:
 	float DoorCloseDelay = 0.5f;
 	float LastDoorOpenTime;
 
-	AActor* Owner;
+	AActor* Owner = nullptr;
 
 	// Return the total of the mass on plate
 	float GetTotalMassOfActorOnPlate();
